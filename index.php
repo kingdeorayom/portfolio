@@ -1,0 +1,76 @@
+<?php
+
+$cssVersion = filemtime('./styles/custom/style.css');
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serking de Orayom | Software Developer</title>
+    <?php include_once './assets/fonts/google-fonts.php' ?>
+
+    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="<?php echo './styles/custom/style.css?id=' . $cssVersion ?>" type="text/css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="hero my-5">
+            <img src="./assets/images/serkingdeorayom.jpg" alt="Serking de Orayom" class="img-fluid my-3 hero-image" width="100">
+            <h1 class="my-2 hero-name">serkingdeorayom</h1>
+            <p class="my-3 hero-subtitle lead">software developer</p>
+        </section>
+
+        <!-- <hr class="mx-auto text-white"> -->
+
+        <section class="content my-5 text-center text-white">
+            <h4><a href="./about.php" class="content-title my-4 pb-2">about me</a></h4>
+            <h5 class="content-subtitle my-3 lead">information about myself</h5>
+            <h4><a href="./projects.php" class="content-title my-4 pb-2">my projects</a></h4>
+            <h5 class="content-subtitle my-3 lead">collection of all my projects</h5>
+            <h4><a href="./contact.php" class="content-title my-4 pb-2">contact me</a></h4>
+            <h5 class="content-subtitle my-3 lead">for project or freelance opportunities</h5>
+        </section>
+
+        <!-- <hr class="mx-auto text-white"> -->
+
+        <section class="footer my-3 text-white">
+
+            <div class="footer-basic">
+                <footer>
+                    <div class="social">
+                        <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/serkingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.github.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                    <p class="copyright">Serking de Orayom © 2022</p>
+                </footer>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <script src="./scripts/custom/font-awesome/dab8986b00.js" crossorigin="anonymous"></script>
+    <script src="./scripts/custom/popper/popper.min.js"></script>
+    <script src="./scripts/bootstrap/bootstrap.js"></script>
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+
+</body>
+
+</html>
