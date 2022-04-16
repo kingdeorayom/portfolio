@@ -23,10 +23,10 @@ $cssVersion = filemtime('./styles/custom/style.css');
 
     <main class="container">
 
-        <section class=" my-5">
-            <img src="./assets/images/serkingdeorayom.jpg" alt="Serking de Orayom" class="img-fluid my-3 hero-image" width="100">
-            <h1 class="my-2 hero-name"><a href="./index.php" class="content-title my-4 pb-2">serkingdeorayom</a></h1>
-            <p class="my-3 hero-subtitle lead">software developer</p>
+        <section class="page-control my-5">
+
+            <p>serkingdeorayom / about</p>
+
         </section>
 
     </main>
