@@ -61,32 +61,31 @@ body {
 }
 
 .footer-basic .social {
-    text-align:center;
-    padding-bottom:25px;
+    text-align: center;
+    padding-bottom: 25px;
 }
   
 .footer-basic .social > a {
-    font-size:24px;
-    width:40px;
-    height:40px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    /* border-radius:100%;
-    border:1px solid #ccc; */
-    margin:0 8px;
-    color:inherit;
-    opacity:0.75;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    /* border-radius: 100%;
+    border: 1px solid #ffc107; */
+    margin: 25px 8px 0;
+    color: inherit;
+    opacity: 0.75;
 }
   
 .footer-basic .social > a:hover {
-    opacity:0.9;
+    opacity: 0.9;
 }
   
 .footer-basic .copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:13px;
-    color:#aaa;
-    margin-bottom:0;
+    margin: 0 0 30px;
+    text-align: center;
+    font-size: 13px;
+    color:#aaaaaa;
 }
