@@ -52,52 +52,123 @@
     margin: 15px 15px;
 }
 
-.content-holder-text {
+.introduction-holder-text {
     margin: 25px 15px;
 }
 
-.about-header-text {
-    color: white;
+.introduction-header-text {
+    color: #ffffff;
     font-family: 'Merriweather', serif;
     margin-bottom: 23px;
 }
 
-.about-content-text {
-    color: white;
+.introduction-content-text {
+    color: #ffffff;
     font-family: 'Merriweather', serif;
     margin-top: 25px;
     line-height: 40px;
 }
 
-.about-image-holder {
+.introduction-image-holder {
     text-align: center;
 }
 
-.about-image {
+.introduction-image {
     border-radius: 5%;
     margin: 30px 0;
     width: 450px;
 }
 
-.about-name {
+.introduction-name {
     text-decoration: none;
     color: #ffffff;
     border-bottom: 4px solid #ffc107;
 }
 
-.about-name:hover {
+.introduction-name:hover {
     color: #ffffff;
 }
 
 @media only screen and (max-width: 576px) {
-    .about-image {
+    .introduction-image {
         width: 75%;
         height: auto;
     }
 }
 
-/* -------------------------------------- Introduction -------------------------------------- */
+.download-link {
+    text-decoration: none;
+    color: #ffc107;
+}
 
-.history {
+.download-link:hover {
+    color: #d6a718;
+}
+
+/* -------------------------------------- Philosophy -------------------------------------- */
+
+.philosophy {
     margin: 15px 15px;
+}
+
+.philosophy-holder-text {
+    margin: 25px 15px;
+}
+
+.philosophy-header-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 23px;
+}
+
+.philosophy-content-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.philosophy-image-holder {
+    text-align: center;
+}
+/* -------------------------------------- Hobbies -------------------------------------- */
+
+.hobbies {
+    margin: 15px 15px;
+}
+
+.hobbies-image-holder {
+    text-align: center;
+}
+
+.hobbies-image {
+    border-radius: 5%;
+    margin: 30px 0;
+    width: 450px;
+}
+
+.hobbies-holder-text {
+    margin: 25px 15px;
+}
+
+.hobbies-header-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 23px;
+}
+
+.hobbies-content-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.hobbies-link {
+    text-decoration: none;
+    color:#ffc107;
+}
+
+.hobbies-link:hover {
+    color:#d6a718;
 }
