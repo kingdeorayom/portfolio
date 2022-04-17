@@ -1,23 +1,23 @@
-/* -------------------------------------- Content -------------------------------------- */
+/* -------------------------------------- Page Control -------------------------------------- */
 
-.content {
+.breadcrumb {
     color: #ffffff;
     text-align: center;
     margin: 48px 0;
 }
 
-.content-title {
+.breadcrumb-title {
     cursor: pointer;
     position: relative;
     color: #ffffff;
     text-decoration: none;
   }
   
-.content-title:hover {
+.breadcrumb-title:hover {
     color: #ffffff;
 }
   
-.content-title::before {
+.breadcrumb-title::before {
     content: "";
     position: absolute;
     display: block;
@@ -31,28 +31,29 @@
     transition: transform 0.3s ease;
 }
   
-.content-title:hover::before {
+.breadcrumb-title:hover::before {
     transform: scaleX(1);
 }
-
-.content-subtitle {
-    color: #cac8c8;
-}
-
-/* -------------------------------------- About -------------------------------------- */
 
 .page-control {
     text-decoration: none;
     color: #ffffff;
     text-align: start;
+    margin: 0 15px;
 }
 
 .page-control:hover {
     color: #cac8c8;
 }
 
-.content-holder {
-    margin: 48px 15px;
+/* -------------------------------------- Introduction -------------------------------------- */
+
+.introduction {
+    margin: 15px 15px;
+}
+
+.content-holder-text {
+    margin: 25px 15px;
 }
 
 .about-header-text {
@@ -78,9 +79,25 @@
     width: 450px;
 }
 
+.about-name {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 4px solid #ffc107;
+}
+
+.about-name:hover {
+    color: #ffffff;
+}
+
 @media only screen and (max-width: 576px) {
     .about-image {
         width: 75%;
         height: auto;
     }
-  }
+}
+
+/* -------------------------------------- Introduction -------------------------------------- */
+
+.history {
+    margin: 15px 15px;
+}

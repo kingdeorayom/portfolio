@@ -1,4 +1,16 @@
+/* @keyframes changeBackgroundColor {
+    0%   {background-color:#191A19;}
+    25%  {background-color: #2b2c2b;}
+    50%  {background-color: #363836;}
+    100% {background-color: #4f524f;}
+} */
+  
+  /* The element to apply the animation to */
 body {
     background-color: #191A19;
     font-family: 'Open Sans', sans-serif;
-}
+    /* animation-name: changeBackgroundColor;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; */
+  }
