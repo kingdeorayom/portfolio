@@ -33,10 +33,10 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
 
         <section class="content">
             <h4><a href="./about.php" class="content-title my-4 pb-2">about me</a></h4>
-            <h5 class="content-subtitle my-3 lead">who am i and what i do</h5>
-            <h4><a href="./projects.php" class="content-title my-4 pb-2">my projects</a></h4>
+            <h5 class="content-subtitle my-3 lead">skills, goals and recreation</h5>
+            <h4><a href="./projects.php" class="content-title my-4 pb-2">projects</a></h4>
             <h5 class="content-subtitle my-3 lead">collection of my projects</h5>
-            <h4><a href="./contact.php" class="content-title my-4 pb-2">contact me</a></h4>
+            <h4><a href="./contact.php" class="content-title my-4 pb-2">contact</a></h4>
             <h5 class="content-subtitle my-3 lead">for project opportunities</h5>
         </section>
 

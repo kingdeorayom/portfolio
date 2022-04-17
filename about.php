@@ -12,7 +12,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me | serkingdeorayom</title>
+    <title>about me</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
@@ -54,7 +54,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
             </div>
         </section>
 
-        <section class="philosophy">
+        <!-- <section class="philosophy">
             <div class="row">
                 <div class="col-sm-12">
 
@@ -64,10 +64,10 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
 
                         <figure class="philosophy-content">
                             <blockquote class="blockquote philosophy-header-text">
-                                <h5>&ldquo;A well-known quote, contained in a blockquote element.&rdquo;</h5>
+                                <h5>&ldquo;If you can't make it good, at least make it look good.&rdquo;</h5>
                             </blockquote>
                             <blockquote class="blockquote philosophy-content-text">
-                                <h5>&#8211; Someone famous in Source Title</h5>
+                                <h5>&#8211; Bill Gates on <em>Windows Vista</em>&#8482;</h5>
                             </blockquote>
                         </figure>
 
@@ -150,7 +150,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
     </main>
 
