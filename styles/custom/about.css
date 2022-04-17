@@ -121,6 +121,11 @@
     margin-bottom: 23px;
 }
 
+.philosophy-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
 .philosophy-content-text {
     color: #ffffff;
     font-family: 'Merriweather', serif;

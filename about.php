@@ -57,16 +57,20 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
         <section class="philosophy">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="philosophy-holder-text">
-                        <h1 class="philosophy-header-text display-6">this is who i am</h1>
-                        <div class="card">
-                            <div class="card-body">
-                                <blockquote class="blockquote mb-0">
-                                    <p>&ldquo;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quos voluptatem, dicta repudiandae suscipit, maiores ipsum enim laudantium et earum molestias nam reiciendis illum. Aperiam tenetur suscipit quas assumenda temporibus.&ldquo;</p>
-                                    <footer class="blockquote-footer">lorem ipsum in <cite title="Source Title">lorem ipsum</cite></footer>
-                                </blockquote>
-                            </div>
-                        </div>
+
+                    <div class="philosophy-holder-text my-5">
+
+                        <h1 class="philosophy-header-text display-6">who am i</h1>
+
+                        <figure class="philosophy-content">
+                            <blockquote class="blockquote philosophy-header-text">
+                                <h5>&ldquo;A well-known quote, contained in a blockquote element.&rdquo;</h5>
+                            </blockquote>
+                            <blockquote class="blockquote philosophy-content-text">
+                                <h5>&#8211; Someone famous in Source Title</h5>
+                            </blockquote>
+                        </figure>
+
                     </div>
                 </div>
             </div>
