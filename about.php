@@ -1,6 +1,7 @@
 <?php
 
-$cssVersion = filemtime('./styles/custom/style.css');
+$maincssVersion = filemtime('./styles/custom/main.css');
+$pagecssVersion = filemtime('./styles/custom/about.css');
 
 ?>
 
@@ -11,11 +12,12 @@ $cssVersion = filemtime('./styles/custom/style.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about | serkingdeorayom</title>
+    <title>about me | serkingdeorayom</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/style.css?id=' . $cssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './styles/custom/about.css?id=' . $pagecssVersion ?>" type="text/css">
 
 </head>
 
@@ -23,10 +25,31 @@ $cssVersion = filemtime('./styles/custom/style.css');
 
     <main class="container">
 
-        <section class="page-control my-5">
+        <section class="page-control my-5 mx-2">
 
-            <p>serkingdeorayom / about</p>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="./index.php" class="content-title pb-2">serkingdeorayom</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">about me</li>
+                </ol>
+            </nav>
 
+        </section>
+
+        <section class="serkingdeorayom my-5">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="about-image-holder">
+                        <img src="./assets/images/kingdeorayom.jpg" alt="" class="img-fluid about-image">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="content-holder">
+                        <h1 class="about-header-text display-3">hi, i'm <a href="./index.php" class="content-title pb-2">Serking</a></h1>
+                        <h5 class="about-content-text">I've spent the past 5 years working across different areas of development: desktop application, web application, UI/UX design</h5>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>

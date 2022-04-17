@@ -1,10 +1,9 @@
-body {
-    background-color: #191A19;
-    font-family: 'Open Sans', sans-serif;
+/* -------------------------------------- Hero -------------------------------------- */
+
+.hero {
+    margin: 48px 0;
     text-align: center;
 }
-
-/* -------------------------------------- Hero -------------------------------------- */
 
 .hero-image {
     border-radius: 50%;
@@ -20,6 +19,12 @@ body {
 }
 
 /* -------------------------------------- Content -------------------------------------- */
+
+.content {
+    color: #ffffff;
+    text-align: center;
+    margin: 48px 0;
+}
 
 .content-title {
     cursor: pointer;
@@ -56,6 +61,10 @@ body {
 
 /* -------------------------------------- Footer -------------------------------------- */
 
+.footer-basic {
+    color: #ffffff;
+}
+
 .footer-basic ul a:hover {
     opacity: 1;
 }
@@ -81,6 +90,7 @@ body {
   
 .footer-basic .social > a:hover {
     opacity: 0.9;
+    transform: scale(1.3);
 }
   
 .footer-basic .copyright {
@@ -89,14 +99,3 @@ body {
     font-size: 13px;
     color:#aaaaaa;
 }
-
-/* -------------------------------------- About -------------------------------------- */
-
-/* .page-control {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.page-control:hover {
-    color: #cac8c8;
-} */

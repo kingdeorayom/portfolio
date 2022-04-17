@@ -1,6 +1,7 @@
 <?php
 
-$cssVersion = filemtime('./styles/custom/style.css');
+$maincssVersion = filemtime('./styles/custom/main.css');
+$pagecssVersion = filemtime('./styles/custom/index.css');
 
 ?>
 
@@ -15,7 +16,8 @@ $cssVersion = filemtime('./styles/custom/style.css');
     <?php include_once './assets/fonts/google-fonts.php' ?>
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/style.css?id=' . $cssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './styles/custom/index.css?id=' . $pagecssVersion ?>" type="text/css">
 
 </head>
 
@@ -23,13 +25,13 @@ $cssVersion = filemtime('./styles/custom/style.css');
 
     <main class="container">
 
-        <section class="hero my-5">
+        <section class="hero">
             <a href="./assets/images/serkingdeorayom.jpg" target="_blank"><img src="./assets/images/serkingdeorayom.jpg" alt="Serking de Orayom" class="img-fluid my-3 hero-image" width="105"></a>
             <h1 class="my-2 hero-name"><a href="./index.php" class="content-title my-4 pb-2">serkingdeorayom</a></h1>
             <p class="my-3 hero-subtitle lead">software developer</p>
         </section>
 
-        <section class="content my-5 text-center text-white">
+        <section class="content">
             <h4><a href="./about.php" class="content-title my-4 pb-2">about me</a></h4>
             <h5 class="content-subtitle my-3 lead">who am i and what i do</h5>
             <h4><a href="./projects.php" class="content-title my-4 pb-2">my projects</a></h4>
@@ -38,12 +40,13 @@ $cssVersion = filemtime('./styles/custom/style.css');
             <h5 class="content-subtitle my-3 lead">for project opportunities</h5>
         </section>
 
-        <footer class="footer-basic text-white">
+        <footer class="footer-basic">
             <div class="social">
                 <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com/serkingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.github.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/serking-de-orayom-599927218/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
             <p class="copyright">Serking de Orayom © 2022</p>
         </footer>
