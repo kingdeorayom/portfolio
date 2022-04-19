@@ -61,7 +61,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                     <div class="skills-holder-text">
 
                         <h1 class="skills-header-text display-6">i'm not as skilled as you think i am, but</h1>
-                        <h5 class="skills-content-text">i know how and when to use the following technologies:</h5>
+                        <h5 class="skills-content-text">i know <span class="introduction-name">how</span> and <span class="introduction-name">when</span> to use the following technologies below ... efficiently &#128521;</h5>
                         <div class="skills-holder-main">
                             <div class="row text-center">
                                 <div class="col-6 col-md-3">
@@ -116,7 +116,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                                 </div>
                             </div>
                         </div>
-                        <h5 class="skills-content-text">you may view the projects i have created using the technologies above by clicking <a href="./projects.php" class="download-link">here</a></h5>
+                        <h5 class="skills-content-text">you may view the projects i have created using the technologies above by clicking <a href="./works.php" class="download-link">here</a></h5>
                     </div>
                 </div>
             </div>
