@@ -44,7 +44,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                 <div class="col-sm-12 col-md-6">
                     <div class="introduction-holder-text">
                         <h1 class="introduction-header-text display-3">hi, i'm <a href="./index.php" class="introduction-name pb-2">Serking</a>.</h1>
-                        <h5 class="introduction-content-text">i've spent the past 4 years working across different areas of development: desktop application, web application, UI/UX design</h5>
+                        <h5 class="introduction-content-text">i've spent the past 4 years working across different areas of web development: front-end, backend and UI/UX design</h5>
                         <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">you may view or download my CV by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a></h5>
                     </div>
                 </div>
@@ -220,8 +220,18 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
             </div>
         </section> -->
 
-        <section>
+        <section class="opportunities">
+            <div class="row">
+                <div class="col-sm-12">
 
+                    <div class="opportunities-holder-text">
+
+                        <h1 class="opportunities-header-text display-4">i occasionally take on freelance opportunities</h1>
+                        <h1 class="opportunities-header-text h5">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
