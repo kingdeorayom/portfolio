@@ -105,6 +105,48 @@
     color: #d6a718;
 }
 
+/* -------------------------------------- Skills -------------------------------------- */
+
+.skills {
+    margin: 15px 15px;
+}
+
+.skills-holder-text {
+    margin: 48px 15px;
+}
+
+.skills-header-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 23px;
+}
+
+.skills-content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.skills-content-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.skills-holder-main {
+    margin: 48px 15px;
+}
+
+.skills-image-holder {
+    text-align: center;
+}
+
+.skills-image {
+    border-radius: 5%;
+    margin: 30px 0;
+}
+
+
 /* -------------------------------------- Philosophy -------------------------------------- */
 
 /* .philosophy {
@@ -112,7 +154,7 @@
 }
 
 .philosophy-holder-text {
-    margin: 25px 15px;
+    margin: 48px 15px;
 }
 
 .philosophy-header-text {
@@ -136,6 +178,7 @@
 .philosophy-image-holder {
     text-align: center;
 } */
+
 /* -------------------------------------- Hobbies -------------------------------------- */
 
 /* .hobbies {
@@ -153,7 +196,7 @@
 }
 
 .hobbies-holder-text {
-    margin: 25px 15px;
+    margin: 48px 15px;
 }
 
 .hobbies-header-text {

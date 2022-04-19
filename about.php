@@ -54,13 +54,81 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
             </div>
         </section>
 
+        <section class="skills">
+            <div class="row">
+                <div class="col-sm-12">
+
+                    <div class="skills-holder-text">
+
+                        <h1 class="skills-header-text display-6">i'm not as skilled as you think i am, but</h1>
+                        <h5 class="skills-content-text">i know how and when to use the following technologies:</h5>
+                        <div class="skills-holder-main">
+                            <div class="row text-center">
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/html.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">HTML5</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/css.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">CSS3</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/js.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">JavaScript ES6</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/bootstrap.svg" width="100" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">Bootstrap 5</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row text-center">
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/php.svg" width="125" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">PHP</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/mysql.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">MySQL</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/react.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">ReactJS</h5>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-md-3">
+                                    <div class="skills-image-holder">
+                                        <img src="./assets/images/git.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">Git</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h5 class="skills-content-text">you may view the projects i have created using the technologies above by clicking <a href="./projects.php" class="download-link">here</a></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- <section class="philosophy">
             <div class="row">
                 <div class="col-sm-12">
 
-                    <div class="philosophy-holder-text my-5">
+                    <div class="philosophy-holder-text">
 
-                        <h1 class="philosophy-header-text display-6">who am i</h1>
+                        <h1 class="philosophy-header-text display-6">a brief showcase of my personality</h1>
 
                         <figure class="philosophy-content">
                             <blockquote class="blockquote philosophy-header-text">
@@ -111,13 +179,13 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                         <div class="row">
                             <div class="col-sm-12 col-md-6">
                                 <div class="hobbies-image-holder">
-                                    <img src="./assets/images/books.jpg" alt="" class="img-fluid hobbies-image">
+                                    <img src="./assets/images/sherlock.png" alt="" class="img-fluid hobbies-image">
                                 </div>
                             </div>
                             <div class="col-sm-12 col-md-6">
                                 <div class="hobbies-holder-text">
                                     <h1 class="hobbies-header-text display-5">read books</h1>
-                                    <h5 class="hobbies-content-text">i'm currently reading <em class="hobbies-link">Ang Tundo Man May Langit Din by Andres Cristobal Cruz</em></h5>
+                                    <h5 class="hobbies-content-text">i'm currently reading <a href="https://sherlock-holm.es/" target="_blank" class="hobbies-link"><em>Sherlock Holmes</em></a> novels and short stories</h5>
                                 </div>
                             </div>
                         </div>
@@ -151,6 +219,10 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                 </div>
             </div>
         </section> -->
+
+        <section>
+
+        </section>
 
     </main>
 
