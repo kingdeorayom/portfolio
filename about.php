@@ -227,7 +227,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                     <div class="opportunities-holder-text">
 
                         <h1 class="opportunities-header-text display-4">i occasionally take on freelance opportunities</h1>
-                        <h1 class="opportunities-header-text h5">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
+                        <h1 class="opportunities-content-text h5">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
 
                     </div>
                 </div>
