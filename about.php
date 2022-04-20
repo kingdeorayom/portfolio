@@ -50,10 +50,10 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                         <img src="./assets/images/kingdeorayom.jpg" alt="" class="img-fluid introduction-image">
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div class="introduction-holder-text">
                         <h1 class="introduction-header-text display-3">hi, i'm <a href="./index.php" class="introduction-name pb-2">Serking</a>.</h1>
-                        <h5 class="introduction-content-text">i've spent the past 4 years working across different areas of web development: front-end, backend and UI/UX design</h5>
+                        <h5 class="introduction-content-text">i spent the last 4 years working across different areas of web development: front-end, backend and UI/UX design</h5>
                         <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">you may view or download my CV by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a></h5>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                     <div class="skills-holder-text">
 
                         <h1 class="skills-header-text display-6">i'm not as skilled as you think i am, but</h1>
-                        <h5 class="skills-content-text">i know <span class="introduction-name">how</span> and <span class="introduction-name">when</span> to use the following technologies below ... efficiently &#128521;</h5>
+                        <h5 class="skills-content-text">i know how and when to use the following technologies below&#8212;efficiently &#128521;</h5>
                         <div class="skills-holder-main">
                             <div class="row text-center">
                                 <div class="col-6 col-md-3">
@@ -235,7 +235,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
 
                     <div class="opportunities-holder-text">
 
-                        <h1 class="opportunities-header-text display-4">i occasionally take on freelance opportunities</h1>
+                        <h1 class="opportunities-header-text display-4">i occasionally take on <span class="introduction-name">freelance</span> opportunities.</h1>
                         <h1 class="opportunities-content-text h5">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
 
                     </div>

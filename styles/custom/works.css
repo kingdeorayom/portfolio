@@ -1,0 +1,106 @@
+/* -------------------------------------- Page Control -------------------------------------- */
+
+.breadcrumb {
+    color: #ffffff;
+    text-align: center;
+    margin: 48px 0;
+}
+
+.breadcrumb-title {
+    cursor: pointer;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+.breadcrumb-title:hover {
+    color: #ffffff;
+}
+  
+.breadcrumb-title::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 3px solid #ffc107;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.3s ease;
+}
+  
+.breadcrumb-title:hover::before {
+    transform: scaleX(1);
+}
+
+.page-control {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: start;
+    margin: 0 15px;
+}
+
+.page-control:hover {
+    color: #cac8c8;
+}
+
+/* -------------------------------------- Introduction -------------------------------------- */
+
+.projects {
+    margin: 15px 15px;
+}
+
+.projects-holder-text {
+    margin: 25px 15px;
+}
+
+.projects-header-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 23px;
+}
+
+.projects-content-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    margin-top: 25px;
+    line-height: 40px;
+}
+
+.projects-image-holder {
+    text-align: center;
+}
+
+.projects-image {
+    border-radius: 2%;
+    margin: 30px 0;
+    width: 450px;
+}
+
+.projects-name {
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 4px solid #ffc107;
+}
+
+.projects-name:hover {
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 576px) {
+    .projects-image {
+        width: 75%;
+        height: auto;
+    }
+}
+
+.download-link {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.download-link:hover {
+    color: #d6a718;
+}
