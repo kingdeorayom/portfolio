@@ -69,8 +69,9 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
 
                     <div class="skills-holder-text">
 
-                        <h1 class="skills-header-text display-6">i'm not as skilled as you think i am, but</h1>
-                        <h5 class="skills-content-text">i know how and when to use the following technologies below&#8212;efficiently &#128521;</h5>
+                        <!-- <h1 class="skills-header-text display-6">i'm not as skilled as you think i am, but</h1> -->
+                        <h1 class="skills-header-text h2">i know when and how to efficiently use the following technologies</h1>
+                        <!-- <h5 class="skills-content-text">i know how and when to efficiently use the following technologies below</h5> -->
                         <div class="skills-holder-main">
                             <div class="row text-center">
                                 <div class="col-6 col-md-3">
@@ -125,7 +126,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
                                 </div>
                             </div>
                         </div>
-                        <h5 class="skills-content-text">you may view the projects i have created using the technologies above by clicking <a href="./works.php" class="download-link">here</a></h5>
+                        <!-- <h5 class="skills-content-text text-center">you may view the projects i have created using the technologies above by clicking <a href="./works.php" class="download-link">here</a></h5> -->
                     </div>
                 </div>
             </div>
@@ -235,13 +236,25 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
 
                     <div class="opportunities-holder-text">
 
-                        <h1 class="opportunities-header-text display-4">i occasionally take on <span class="introduction-name">freelance</span> opportunities.</h1>
-                        <h1 class="opportunities-content-text h5">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
+                        <h1 class="opportunities-header-text display-2">i occasionally take on <span class="introduction-name">freelance</span> opportunities.</h1>
+                        <h1 class="opportunities-content-text h4">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
+                        <!-- <h5 class="skills-content-text">you may also view the projects i have created using the technologies above by clicking <a href="./works.php" class="download-link">here</a></h5> -->
 
                     </div>
                 </div>
             </div>
         </section>
+
+        <footer class="footer-basic">
+            <div class="social">
+                <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/serkingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.github.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/serking-de-orayom-599927218/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">Serking de Orayom © 2022</p>
+        </footer>
 
     </main>
 

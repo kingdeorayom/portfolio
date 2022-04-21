@@ -104,3 +104,50 @@
 .download-link:hover {
     color: #d6a718;
 }
+
+.card-title {
+    font-family: 'Merriweather', serif;
+}
+
+.badges {
+    margin: 15px 0;
+}
+
+.badge-html {
+    background-color: #e34f26;
+}
+
+.badge-css {
+    background-color: #1b73ba;
+}
+
+.badge-js {
+    background-color: #e9ca32;
+    color: #000000;
+}
+
+.badge-bootstrap {
+    background-color: #7952b3;
+}
+
+.badge-php {
+    background-color: #8993be;
+}
+
+.badge-mysql {
+    background-color: #005d77;
+}
+
+.badge-c-sharp {
+    background-color: #a179dc;
+}
+
+.badge-dotnet {
+    background-color: #8b75ad;
+
+}
+
+.badge-sqlite {
+    background-color: #ffffff;
+    color: #000000;
+}

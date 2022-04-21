@@ -12,7 +12,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me</title>
+    <title>works</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
@@ -47,21 +47,146 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
             <!-- <div class="row mx-auto">
                 <h3 class="projects-content-text">below are the projects i have created</h3>
             </div> -->
-            <div class="row">
-                <div class="col-sm-12 col-md-6 d-flex align-items-center">
 
-                    <div class="projects-holder-text">
-                        <h1 class="projects-header-text display-4">SALIKSIK: UPHSL Research Repository</h1>
-                        <h5 class="projects-content-text">A web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of University of Perpetual Help System Laguna - Biñan Campus</h5>
+            <section class="saliksik">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="projects-holder-text">
+                            <h1 class="projects-header-text display-4">SALIKSIK: UPHSL Research Repository</h1>
+                            <h5 class="projects-content-text">A web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of University of Perpetual Help System Laguna - Biñan Campus.</h5>
+
+                            <div class="badges">
+                                <span class="badge rounded-pill badge-html my-2">HTML</span>
+                                <span class="badge rounded-pill badge-css my-2">CSS</span>
+                                <span class="badge rounded-pill badge-js my-2">JavaScript</span>
+                                <span class="badge rounded-pill badge-bootstrap my-2">Bootstrap</span>
+                                <span class="badge rounded-pill badge-php my-2">PHP</span>
+                                <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
+                            </div>
+
+                            <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="projects-image-holder">
+                            <!-- <img src="./assets/images/saliksik.png" alt="" class="img-fluid projects-image"> -->
+                            <img src="./assets/images/saliksik-repository.png" alt="" class="img-fluid projects-image">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6">
-                    <div class="projects-image-holder">
-                        <img src="./assets/images/kingdeorayom.jpg" alt="" class="img-fluid projects-image">
+            </section>
+
+            <section class="account-manager-web">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="projects-holder-text">
+                            <h1 class="projects-header-text display-4">Account Manager (Web)</h1>
+                            <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
+
+                            <div class="badges">
+                                <span class="badge rounded-pill badge-html my-2">HTML</span>
+                                <span class="badge rounded-pill badge-css my-2">CSS</span>
+                                <span class="badge rounded-pill badge-js my-2">JavaScript</span>
+                                <span class="badge rounded-pill badge-bootstrap my-2">Bootstrap</span>
+                                <span class="badge rounded-pill badge-php my-2">PHP</span>
+                                <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
+                            </div>
+
+                            <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="projects-image-holder">
+                            <img src="./assets/images/am-web.png" alt="" class="img-fluid projects-image">
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
+
+            <section class="account-manager-web">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="projects-holder-text">
+                            <h1 class="projects-header-text display-4">Account Manager (Desktop)</h1>
+                            <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
+                            <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
+
+                            <div class="badges">
+                                <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
+                                <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
+                                <span class="badge rounded-pill badge-sqlite my-2">SQLite</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="projects-image-holder">
+                            <img src="./assets/images/am-desktop.png" alt="" class="img-fluid projects-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="barangay-resident-management">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="projects-holder-text">
+                            <h1 class="projects-header-text display-4">Barangay Malaban Resident Information Management System</h1>
+                            <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
+                            <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
+
+                            <div class="badges">
+                                <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
+                                <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
+                                <span class="badge rounded-pill badge-sqlite my-2">Microsoft SQL Server</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="projects-image-holder">
+                            <img src="./assets/images/barangay-malaban.png" alt="" class="img-fluid projects-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="shutdown-timer">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="projects-holder-text">
+                            <h1 class="projects-header-text display-4">Shutdown Timer</h1>
+                            <h5 class="projects-content-text">A simple shutdown scheduler application for Windows</h5>
+
+                            <div class="badges">
+                                <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
+                                <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
+                            </div>
+
+                            <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
+                        <div class="projects-image-holder">
+                            <img src="./assets/images/shutdown-timer.png" alt="" class="img-fluid projects-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
         </section>
+
+        <footer class="footer-basic my-5">
+            <div class="social">
+                <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/serkingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.github.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/serking-de-orayom-599927218/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">Serking de Orayom © 2022</p>
+        </footer>
 
     </main>
 
