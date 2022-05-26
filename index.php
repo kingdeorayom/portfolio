@@ -29,6 +29,10 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <link rel="shortcut icon" href="./favicon.ico?v=2">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <meta property="og:image" content="./assets/images/serking-cartoon.png" />
+    <meta property="og:description" content="hi, i'm serking. i spent the last 4 years working across different areas of web development: front-end, backend and UI/UX design." />
+    <meta property="og:url" content="http://www.kingdeorayom.tech" />
+    <meta property="og:title" content="serking de orayom | web developer" />
 
 </head>
 
