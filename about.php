@@ -2,6 +2,7 @@
 
 $maincssVersion = filemtime('./styles/custom/main.css');
 $pagecssVersion = filemtime('./styles/custom/about.css');
+$aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
 
 ?>
 
@@ -12,8 +13,10 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me</title>
+    <title>about me | serkingdeorayom</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
+
+    <link rel="stylesheet" href="./styles/animate/animate.min.css">
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
@@ -32,7 +35,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
 
 <body>
 
-    <main class="container">
+    <main class="container ">
 
         <section class="page-control">
             <nav aria-label="breadcrumb">
@@ -46,12 +49,12 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
         <section class="introduction">
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <div class="introduction-image-holder">
-                        <img src="./assets/images/kingdeorayom.jpg" alt="" class="img-fluid introduction-image">
+                    <div class="introduction-image-holder animate__animated animate__fadeInUp">
+                        <img src="<?php echo './assets/images/kingdeorayom.jpg?id=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
-                    <div class="introduction-holder-text">
+                    <div class="introduction-holder-text animate__animated animate__fadeInUp">
                         <h1 class="introduction-header-text display-3">hi, i'm <a href="./index.php" class="introduction-name pb-2">Serking</a>.</h1>
                         <h5 class="introduction-content-text">i spent the last 4 years working across different areas of web development: front-end, backend and UI/UX design</h5>
                         <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">you may view or download my CV by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a></h5>
@@ -63,7 +66,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
             </div>
         </section>
 
-        <section class="skills">
+        <section class="skills animate__animated animate__fadeInUp">
             <div class="row">
                 <div class="col-sm-12">
 
@@ -230,7 +233,7 @@ $pagecssVersion = filemtime('./styles/custom/about.css');
             </div>
         </section> -->
 
-        <section class="opportunities">
+        <section class="opportunities animate__animated animate__fadeInUp">
             <div class="row">
                 <div class="col-sm-12">
 

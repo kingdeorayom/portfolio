@@ -15,6 +15,8 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <title>serkingdeorayom | web developer</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
 
+    <link rel="stylesheet" href="./styles/animate/animate.min.css">
+    
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
     <link rel="stylesheet" href="<?php echo './styles/custom/index.css?id=' . $pagecssVersion ?>" type="text/css">
@@ -35,21 +37,21 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <main class="container">
 
         <section class="hero">
-            <a href="./assets/images/serkingdeorayom.jpg" target="_blank"><img src="./assets/images/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image" width="105"></a>
-            <h1 class="my-2 hero-name"><a href="./index.php" class="content-title my-4 pb-2">serkingdeorayom</a></h1>
-            <p class="my-3 hero-subtitle lead">web developer</p>
+            <a href="./assets/images/serkingdeorayom.jpg" target="_blank"><img src="./assets/images/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105"></a>
+            <h1 class="my-2 hero-name animate__animated animate__fadeInUp"><a href="./index.php" class="content-title my-4 pb-2">serkingdeorayom</a></h1>
+            <p class="my-3 hero-subtitle lead animate__animated animate__fadeInUp">web developer</p>
         </section>
 
         <section class="content">
-            <h4><a href="./about.php" class="content-title my-4 pb-2">about me</a></h4>
-            <h5 class="content-subtitle my-3 lead">background and skills</h5>
-            <h4><a href="./works.php" class="content-title my-4 pb-2">works</a></h4>
-            <h5 class="content-subtitle my-3 lead">collection of my projects</h5>
-            <h4><a href="./contact.php" class="content-title my-4 pb-2">contact</a></h4>
-            <h5 class="content-subtitle my-3 lead">for project opportunities</h5>
+            <h4><a href="./about.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">about me</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">background and skills</h5>
+            <h4><a href="./works.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">works</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">collection of my projects</h5>
+            <h4><a href="./contact.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">contact</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">for project opportunities</h5>
         </section>
 
-        <footer class="footer-basic">
+        <footer class="footer-basic animate__animated animate__fadeInUp">
             <div class="social">
                 <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>

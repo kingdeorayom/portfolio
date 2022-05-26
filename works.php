@@ -12,8 +12,10 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>works</title>
+    <title>works | serkingdeorayom</title>
     <?php include_once './assets/fonts/google-fonts.php' ?>
+
+    <link rel="stylesheet" href="./styles/animate/animate.min.css">
 
     <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
@@ -48,7 +50,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                 <h3 class="projects-content-text">below are the projects i have created</h3>
             </div> -->
 
-            <section class="saliksik">
+            <section class="saliksik animate__animated animate__fadeInUp">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
@@ -77,7 +79,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                 </div>
             </section>
 
-            <section class="account-manager-web">
+            <section class="account-manager-web animate__animated animate__fadeInUp">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
@@ -93,7 +95,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
 
-                            <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5>
+                            <h5 class="projects-content-text"><a href="https://account-manager.io/" target="_blank" class="download-link">Visit website</a></h5>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -104,7 +106,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                 </div>
             </section>
 
-            <section class="account-manager-web">
+            <section class="account-manager-web animate__animated animate__fadeInUp">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
@@ -128,7 +130,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                 </div>
             </section>
 
-            <section class="barangay-resident-management">
+            <section class="barangay-resident-management animate__animated animate__fadeInUp">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
@@ -152,7 +154,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                 </div>
             </section>
 
-            <section class="shutdown-timer">
+            <section class="shutdown-timer animate__animated animate__fadeInUp">
                 <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
@@ -177,7 +179,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
 
         </section>
 
-        <footer class="footer-basic my-5">
+        <footer class="footer-basic my-5 animate__animated animate__fadeInUp">
             <div class="social">
                 <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
