@@ -1,7 +1,7 @@
 <?php
 
-$maincssVersion = filemtime('./styles/custom/main.css');
-$pagecssVersion = filemtime('./styles/custom/works.css');
+$maincssVersion = filemtime('./assets/css/main.css');
+$pagecssVersion = filemtime('./assets/css/works.css');
 
 ?>
 
@@ -12,14 +12,13 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>works | serkingdeorayom</title>
-    <?php include_once './assets/fonts/google-fonts.php' ?>
+    <title>Serking | Web Developer</title>
 
-    <link rel="stylesheet" href="./styles/animate/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
-    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/works.css?id=' . $pagecssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo './assets/css/main.css?v=' . $maincssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './assets/css/works.css?v=' . $pagecssVersion ?>" type="text/css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=2">
@@ -39,8 +38,8 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
         <section class="page-control">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.php" class="breadcrumb-title pb-2">serkingdeorayom</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">works</li>
+                    <li class="breadcrumb-item"><a href="./index.php" class="breadcrumb-title pb-2">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Works</li>
                 </ol>
             </nav>
         </section>
@@ -73,7 +72,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="projects-image-holder">
                             <!-- <img src="./assets/images/saliksik.png" alt="" class="img-fluid projects-image"> -->
-                            <img src="./assets/images/saliksik-repository.png" alt="" class="img-fluid projects-image">
+                            <img src="./assets/img/saliksik-repository.png" alt="" class="img-fluid projects-image">
                         </div>
                     </div>
                 </div>
@@ -100,7 +99,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="projects-image-holder">
-                            <img src="./assets/images/am-web.png" alt="" class="img-fluid projects-image">
+                            <img src="./assets/img/am-web.png" alt="" class="img-fluid projects-image">
                         </div>
                     </div>
                 </div>
@@ -124,7 +123,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="projects-image-holder">
-                            <img src="./assets/images/am-desktop.png" alt="" class="img-fluid projects-image">
+                            <img src="./assets/img/am-desktop.png" alt="" class="img-fluid projects-image">
                         </div>
                     </div>
                 </div>
@@ -148,7 +147,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="projects-image-holder">
-                            <img src="./assets/images/barangay-malaban.png" alt="" class="img-fluid projects-image">
+                            <img src="./assets/img/barangay-malaban.png" alt="" class="img-fluid projects-image">
                         </div>
                     </div>
                 </div>
@@ -171,7 +170,7 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
                         <div class="projects-image-holder">
-                            <img src="./assets/images/shutdown-timer.png" alt="" class="img-fluid projects-image">
+                            <img src="./assets/img/shutdown-timer.png" alt="" class="img-fluid projects-image">
                         </div>
                     </div>
                 </div>
@@ -192,9 +191,10 @@ $pagecssVersion = filemtime('./styles/custom/works.css');
 
     </main>
 
-    <script src="./scripts/custom/font-awesome/dab8986b00.js" crossorigin="anonymous"></script>
-    <script src="./scripts/custom/popper/popper.min.js"></script>
-    <script src="./scripts/bootstrap/bootstrap.js"></script>
+    <script src="./node_modules/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

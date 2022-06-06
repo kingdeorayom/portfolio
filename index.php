@@ -1,7 +1,7 @@
 <?php
 
-$maincssVersion = filemtime('./styles/custom/main.css');
-$pagecssVersion = filemtime('./styles/custom/index.css');
+$maincssVersion = filemtime('./assets/css/main.css');
+$pagecssVersion = filemtime('./assets/css/index.css');
 
 ?>
 
@@ -12,14 +12,13 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>serkingdeorayom | web developer</title>
-    <?php include_once './assets/fonts/google-fonts.php' ?>
+    <title>Serking | Web Developer</title>
 
-    <link rel="stylesheet" href="./styles/animate/animate.min.css">
-    
-    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/index.css?id=' . $pagecssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
+
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo './assets/css/main.css?v=' . $maincssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './assets/css/index.css?v=' . $pagecssVersion ?>" type="text/css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=2">
@@ -29,10 +28,10 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <link rel="shortcut icon" href="./favicon.ico?v=2">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <meta property="og:image" content="./assets/images/serking-cartoon.png" />
-    <meta property="og:description" content="hi, i'm serking. i spent the last 4 years working across different areas of web development: front-end, backend and UI/UX design." />
+    <meta property="og:image" content="./assets/img/serking-cartoon.png" />
+    <meta property="og:description" content="Hi, I'm serking. I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design." />
     <meta property="og:url" content="http://www.kingdeorayom.tech" />
-    <meta property="og:title" content="serking de orayom | web developer" />
+    <meta property="og:title" content="Serking | Web Developer" />
 
 </head>
 
@@ -41,18 +40,19 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
     <main class="container">
 
         <section class="hero">
-            <a href="./assets/images/serkingdeorayom.jpg" target="_blank"><img src="./assets/images/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105"></a>
-            <h1 class="my-2 hero-name animate__animated animate__fadeInUp"><a href="./index.php" class="content-title my-4 pb-2">serkingdeorayom</a></h1>
-            <p class="my-3 hero-subtitle lead animate__animated animate__fadeInUp">web developer</p>
+            <!-- <a href="./assets/img/serkingdeorayom.jpg" target="_blank"><img src="./assets/img/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105"></a> -->
+            <img src="./assets/img/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105">
+            <h1 class="my-2 hero-name animate__animated animate__fadeInUp"><a href="./index.php" class="content-title my-4 pb-2">Serking de Orayom</a></h1>
+            <p class="my-3 hero-subtitle lead animate__animated animate__fadeInUp">Web Developer</p>
         </section>
 
         <section class="content">
-            <h4><a href="./about.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">about me</a></h4>
-            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">background and skills</h5>
-            <h4><a href="./works.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">works</a></h4>
-            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">collection of my projects</h5>
-            <h4><a href="./contact.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">contact</a></h4>
-            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">for project opportunities</h5>
+            <h4><a href="./about.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">About me</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">Background and skills</h5>
+            <h4><a href="./works.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">Works</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">Collection of my projects</h5>
+            <h4><a href="./contact.php" class="content-title my-4 pb-2 animate__animated animate__fadeInUp">Contact</a></h4>
+            <h5 class="content-subtitle my-3 lead animate__animated animate__fadeInUp">For project opportunities</h5>
         </section>
 
         <footer class="footer-basic animate__animated animate__fadeInUp">
@@ -68,9 +68,10 @@ $pagecssVersion = filemtime('./styles/custom/index.css');
 
     </main>
 
-    <script src="./scripts/custom/font-awesome/dab8986b00.js" crossorigin="anonymous"></script>
-    <script src="./scripts/custom/popper/popper.min.js"></script>
-    <script src="./scripts/bootstrap/bootstrap.js"></script>
+    <script src="./node_modules/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

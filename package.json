@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Serking de Orayom's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingdeorayom/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingdeorayom/portfolio/issues"
+  },
+  "homepage": "https://github.com/kingdeorayom/portfolio#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.2.0-beta1",
+    "jquery": "^3.6.0"
+  }
+}

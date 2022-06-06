@@ -1,8 +1,8 @@
 <?php
 
-$maincssVersion = filemtime('./styles/custom/main.css');
-$pagecssVersion = filemtime('./styles/custom/about.css');
-$aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
+$maincssVersion = filemtime('./assets/css/main.css');
+$pagecssVersion = filemtime('./assets/css/about.css');
+$aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
 ?>
 
@@ -13,14 +13,13 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>about me | serkingdeorayom</title>
-    <?php include_once './assets/fonts/google-fonts.php' ?>
+    <title>Serking | About | Web Developer</title>
 
-    <link rel="stylesheet" href="./styles/animate/animate.min.css">
+    <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
-    <link rel="stylesheet" href="./styles/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/main.css?id=' . $maincssVersion ?>" type="text/css">
-    <link rel="stylesheet" href="<?php echo './styles/custom/about.css?id=' . $pagecssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo './assets/css/main.css?v=' . $maincssVersion ?>" type="text/css">
+    <link rel="stylesheet" href="<?php echo './assets/css/about.css?v=' . $pagecssVersion ?>" type="text/css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png?v=2">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png?v=2">
@@ -35,13 +34,13 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
 
 <body>
 
-    <main class="container ">
+    <main class="container">
 
         <section class="page-control">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="./index.php" class="breadcrumb-title pb-2">serkingdeorayom</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">about me</li>
+                    <li class="breadcrumb-item"><a href="./index.php" class="breadcrumb-title pb-2">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">About me</li>
                 </ol>
             </nav>
         </section>
@@ -50,19 +49,19 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class="introduction-image-holder animate__animated animate__fadeInUp">
-                        <img src="<?php echo './assets/images/kingdeorayom.jpg?id=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
+                        <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div class="introduction-holder-text animate__animated animate__fadeInUp">
-                        <h1 class="introduction-header-text display-3">hi, i'm <a href="./index.php" class="introduction-name pb-2">Serking</a>.</h1>
-                        <h5 class="introduction-content-text">i spent the last 4 years working across different areas of web development: front-end, backend and UI/UX design</h5>
-                        <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">you may view or download my CV by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a></h5>
+                        <h1 class="introduction-header-text display-4">Hi, I'm <a href="./index.php" class="introduction-name pb-2"><span class="serking">Serking</span></a>.</h1>
+                        <h5 class="introduction-content-text">I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design.</h5>
+                        <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">You may view or download my resume by clicking <a href="./assets/docs/resume.pdf" target="_blank" class="download-link">here</a>.</h5>
                     </div>
                 </div>
             </div>
             <div class="row mx-auto d-none d-sm-none d-md-block d-lg-none">
-                <h5 class="introduction-content-text">you may view or download my CV by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a></h5>
+                <h5 class="introduction-content-text">You may view or download my resume by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a>.</h5>
             </div>
         </section>
 
@@ -72,30 +71,30 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
 
                     <div class="skills-holder-text">
 
-                        <h1 class="skills-header-text h2">i know when and how to efficiently use the following technologies</h1>
+                        <h1 class="skills-header-text h2">I know when and how to efficiently use the following technologies:</h1>
                         <div class="skills-holder-main">
                             <div class="row text-center">
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/html.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/html.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">HTML5</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/css.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/css.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">CSS3</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/js.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/js.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">JavaScript</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/bootstrap.svg" width="100" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/bootstrap.svg" width="100" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">Bootstrap 5</h5>
                                     </div>
                                 </div>
@@ -103,25 +102,25 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
                             <div class="row text-center">
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/php.svg" width="125" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/php.svg" width="125" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">PHP</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/mysql.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/mysql.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">MySQL</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/react.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/react.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">ReactJS</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/images/git.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/git.svg" width="75" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">Git</h5>
                                     </div>
                                 </div>
@@ -138,10 +137,8 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
 
                     <div class="opportunities-holder-text">
 
-                        <h1 class="opportunities-header-text display-2">i occasionally take on <span class="introduction-name">freelance</span> opportunities.</h1>
-                        <h1 class="opportunities-content-text h4">have an exciting project where you need some help? send me over a message and <a href="./contact.php" class="download-link">let's chat</a></h1>
-                        <!-- <h5 class="skills-content-text">you may also view the projects i have created using the technologies above by clicking <a href="./works.php" class="download-link">here</a></h5> -->
-
+                        <h1 class="opportunities-header-text display-2">I occasionally take on <span class="introduction-name">freelance</span> opportunities.</h1>
+                        <h1 class="opportunities-content-text h4">Have an exciting project where you need some help? Send me over a message and <a href="./contact.php" class="download-link">let's chat</a>.</h1>
                     </div>
                 </div>
             </div>
@@ -160,15 +157,30 @@ $aboutPhotoVersion = filemtime('./assets/images/kingdeorayom.jpg');
 
     </main>
 
-    <script src="./scripts/custom/font-awesome/dab8986b00.js" crossorigin="anonymous"></script>
-    <script src="./scripts/custom/popper/popper.min.js"></script>
-    <script src="./scripts/bootstrap/bootstrap.js"></script>
+    <script src="./node_modules/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
+    <script src="./node_modules/@popperjs/core/dist/umd/popper.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 
     <script>
         var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
         var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('.introduction-image-holder').on('mouseenter', function() {
+                $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__tada');
+            });
+
+            $('.introduction-image-holder').on('mouseleave', function() {
+                $(".introduction-image-holder").attr('class', 'introduction-image-holder');
+            });
+
+        });
     </script>
 
 </body>
