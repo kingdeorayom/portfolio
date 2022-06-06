@@ -13,7 +13,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serking | About | Web Developer</title>
+    <title>About me | Serking | Web Developer</title>
 
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
@@ -47,9 +47,9 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
         <section class="introduction">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 toShow">
                     <div class="introduction-image-holder animate__animated animate__fadeInUp">
-                        <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
+                        <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image animate__animated animate__tada animate__delay-1s">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
@@ -172,13 +172,21 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
     <script>
         $(document).ready(function() {
 
-            $('.introduction-image-holder').on('mouseenter', function() {
-                $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__tada');
+            $('.introduction-image-holder').on('click', function() {
+                $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__jello');
             });
 
             $('.introduction-image-holder').on('mouseleave', function() {
                 $(".introduction-image-holder").attr('class', 'introduction-image-holder');
             });
+
+            // $('.introduction-image-holder').on('mouseenter', function() {
+            //     $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__tada');
+            // });
+
+            // $('.introduction-image-holder').on('mouseleave', function() {
+            //     $(".introduction-image-holder").attr('class', 'introduction-image-holder');
+            // });
 
         });
     </script>

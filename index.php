@@ -12,7 +12,7 @@ $pagecssVersion = filemtime('./assets/css/index.css');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serking | Web Developer</title>
+    <title>Serking de Orayom | Web Developer</title>
 
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
@@ -31,7 +31,7 @@ $pagecssVersion = filemtime('./assets/css/index.css');
     <meta property="og:image" content="./assets/img/serking-cartoon.png" />
     <meta property="og:description" content="Hi, I'm serking. I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design." />
     <meta property="og:url" content="http://www.kingdeorayom.tech" />
-    <meta property="og:title" content="Serking | Web Developer" />
+    <meta property="og:title" content="Serking de Orayom | Web Developer" />
 
 </head>
 
@@ -40,8 +40,7 @@ $pagecssVersion = filemtime('./assets/css/index.css');
     <main class="container">
 
         <section class="hero">
-            <!-- <a href="./assets/img/serkingdeorayom.jpg" target="_blank"><img src="./assets/img/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105"></a> -->
-            <img src="./assets/img/serking-cartoon.png" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105">
+            <img src="./assets/img/serking-cartoon.png" id="hero-image" alt="Serking de Orayom" class="img-fluid my-3 hero-image animate__animated animate__jackInTheBox" width="105">
             <h1 class="my-2 hero-name animate__animated animate__fadeInUp"><a href="./index.php" class="content-title my-4 pb-2">Serking de Orayom</a></h1>
             <p class="my-3 hero-subtitle lead animate__animated animate__fadeInUp">Web Developer</p>
         </section>
@@ -78,6 +77,16 @@ $pagecssVersion = filemtime('./assets/css/index.css');
         var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
+    </script>
+
+    <script>
+        $(document).ready(function() {
+
+            $('#hero-image').on('click', function() {
+                $("#hero-image").attr('class', 'img-fluid my-3 hero-image animate__animated animate__hinge');
+            });
+
+        });
     </script>
 
 </body>
