@@ -94,7 +94,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
 
-                            <h5 class="projects-content-text"><a href="https://account-manager.io/" target="_blank" class="download-link">Visit website</a></h5>
+                            <h5 class="projects-content-text"><a href="#" target="" class="download-link">Visit website</a> (not yet finished)</h5>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -134,7 +134,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Barangay Malaban Resident Information Management System</h1>
-                            <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
+                            <h5 class="projects-content-text">A desktop application for storing and managing resident information of Barangay Malaban in Biñan City, Laguna.</h5>
                             <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
 
                             <div class="badges">
@@ -158,7 +158,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Shutdown Timer</h1>
-                            <h5 class="projects-content-text">A simple shutdown scheduler application for Windows</h5>
+                            <h5 class="projects-content-text">A simple shutdown scheduler application for Windows.</h5>
 
                             <div class="badges">
                                 <span class="badge rounded-pill badge-c-sharp my-2">C#</span>

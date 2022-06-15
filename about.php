@@ -49,7 +49,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
             <div class="row">
                 <div class="col-sm-12 col-md-6 toShow">
                     <div class="introduction-image-holder animate__animated animate__fadeInUp">
-                        <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image animate__animated animate__tada animate__delay-1s">
+                        <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
@@ -77,13 +77,13 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
                                         <img src="./assets/img/html.svg" width="75" alt="" class="img-fluid skills-image">
-                                        <h5 class="skills-content-text">HTML5</h5>
+                                        <h5 class="skills-content-text">HTML</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
                                         <img src="./assets/img/css.svg" width="75" alt="" class="img-fluid skills-image">
-                                        <h5 class="skills-content-text">CSS3</h5>
+                                        <h5 class="skills-content-text">CSS</h5>
                                     </div>
                                 </div>
                                 <div class="col-6 col-md-3">
@@ -94,8 +94,8 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/img/bootstrap.svg" width="100" alt="" class="img-fluid skills-image">
-                                        <h5 class="skills-content-text">Bootstrap 5</h5>
+                                        <img src="./assets/img/bootstrap.svg" width="110" alt="" class="img-fluid skills-image">
+                                        <h5 class="skills-content-text">Bootstrap</h5>
                                     </div>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                                 </div>
                                 <div class="col-6 col-md-3">
                                     <div class="skills-image-holder">
-                                        <img src="./assets/img/git.svg" width="75" alt="" class="img-fluid skills-image">
+                                        <img src="./assets/img/git.svg" width="90" alt="" class="img-fluid skills-image">
                                         <h5 class="skills-content-text">Git</h5>
                                     </div>
                                 </div>
@@ -167,28 +167,6 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
         var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
             return new bootstrap.Tooltip(tooltipTriggerEl)
         })
-    </script>
-
-    <script>
-        $(document).ready(function() {
-
-            $('.introduction-image-holder').on('click', function() {
-                $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__jello');
-            });
-
-            $('.introduction-image-holder').on('mouseleave', function() {
-                $(".introduction-image-holder").attr('class', 'introduction-image-holder');
-            });
-
-            // $('.introduction-image-holder').on('mouseenter', function() {
-            //     $(".introduction-image-holder").attr('class', 'introduction-image-holder animate__animated animate__tada');
-            // });
-
-            // $('.introduction-image-holder').on('mouseleave', function() {
-            //     $(".introduction-image-holder").attr('class', 'introduction-image-holder');
-            // });
-
-        });
     </script>
 
 </body>
