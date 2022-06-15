@@ -56,12 +56,12 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     <div class="introduction-holder-text animate__animated animate__fadeInUp">
                         <h1 class="introduction-header-text display-4">Hi, I'm <a href="./index.php" class="introduction-name pb-2"><span class="serking">Serking</span></a>.</h1>
                         <h5 class="introduction-content-text">I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design.</h5>
-                        <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">You may view or download my resume by clicking <a href="./assets/docs/resume.pdf" target="_blank" class="download-link">here</a>.</h5>
+                        <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">You may view or download my resume by clicking <a href="./assets/docs/DE ORAYOM - Resume.pdf" target="_blank" class="download-link">here</a>.</h5>
                     </div>
                 </div>
             </div>
             <div class="row mx-auto d-none d-sm-none d-md-block d-lg-none">
-                <h5 class="introduction-content-text">You may view or download my resume by clicking <a href="./assets/files/resume.pdf" target="_blank" class="download-link">here</a>.</h5>
+                <h5 class="introduction-content-text">You may view or download my resume by clicking <a href="./assets/files/DE ORAYOM - Resume.pdf" target="_blank" class="download-link">here</a>.</h5>
             </div>
         </section>
 
