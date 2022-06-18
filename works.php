@@ -94,7 +94,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
 
-                            <h5 class="projects-content-text"><a href="https://account-manager.online" target="" class="download-link">Visit website</a> (not yet finished)</h5>
+                            <h5 class="projects-content-text"><a href="https://account-manager.online" target="_blank" class="download-link">Visit website</a></h5>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
