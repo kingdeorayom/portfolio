@@ -94,7 +94,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
 
-                            <h5 class="projects-content-text"><a href="#" target="" class="download-link">Visit website</a> (not yet finished)</h5>
+                            <h5 class="projects-content-text"><a href="https://account-manager.online" target="" class="download-link">Visit website</a> (not yet finished)</h5>
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
@@ -182,7 +182,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
             <div class="social">
                 <a href="https://www.facebook.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook"><i class="fab fa-facebook"></i></a>
                 <a href="https://www.twitter.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/serkingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.github.com/kingdeorayom" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="GitHub"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/serking-de-orayom-599927218/" target="_blank" data-bs-toggle="tooltip" data-bs-placement="top" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
             </div>
