@@ -110,7 +110,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Account Manager (Desktop)</h1>
-                            <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
+                            <h5 class="projects-content-text">A desktop-based application for storing and managing social accounts all in one place.</h5>
                             <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
 
                             <div class="badges">
