@@ -55,7 +55,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                 <div class="col-sm-12 col-md-6 d-flex align-items-center">
                     <div class="introduction-holder-text animate__animated animate__fadeInUp">
                         <h1 class="introduction-header-text display-4">Hi, I'm <a href="./index.php" class="introduction-name pb-2"><span class="serking">Serking</span></a>.</h1>
-                        <h5 class="introduction-content-text">I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design.</h5>
+                        <h5 class="introduction-content-text">I have some experience in software development and is focused on front-end web technologies and UI/UX design.</h5>
                         <h5 class="introduction-content-text d-sm-block d-md-none d-lg-block">You may view or download my resume by clicking <a href="./assets/docs/DE ORAYOM - Resume.pdf" target="_blank" class="download-link">here</a>.</h5>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
             </div>
         </section>
 
-        <section class="skills animate__animated animate__fadeInUp">
+        <!-- <section class="skills animate__animated animate__fadeInUp">
             <div class="row">
                 <div class="col-sm-12">
 
@@ -129,7 +129,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="opportunities animate__animated animate__fadeInUp">
             <div class="row">
