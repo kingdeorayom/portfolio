@@ -7,6 +7,20 @@ require '../vendor/autoload.php';
 
 $mail = new PHPMailer(true);
 
+if (empty($_POST['textFieldName'] && $_POST['textFieldEmail'] && $_POST['textFieldMessageContent'])) {
+    $arr = array('response' => "empty_fields");
+    header('Content-Type: application/json');
+    echo json_encode($arr);
+    exit();
+}
+
+if (!filter_var($_POST['textFieldEmail'], FILTER_VALIDATE_EMAIL)) {
+    $arr = array('response' => "invalid_email");
+    header('Content-Type: application/json');
+    echo json_encode($arr);
+    exit();
+}
+
 if (isset($_POST['button-send-message']) && $_POST['g-recaptcha-response'] != "") {
 
     $secretKey = '6LcHs9ogAAAAAIXHrQSvxRYWhDPOPzGW9wrs46vz';
@@ -14,6 +28,7 @@ if (isset($_POST['button-send-message']) && $_POST['g-recaptcha-response'] != ""
     $responseData = json_decode($verifyResponse);
 
     if ($responseData->success) {
+
         try {
             $mail->SMTPDebug = 0;
             $mail->isSMTP();
@@ -50,18 +65,4 @@ if (isset($_POST['button-send-message']) && $_POST['g-recaptcha-response'] != ""
             echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         }
     }
-}
-
-if (empty($_POST['textFieldName'] && $_POST['textFieldEmail'] && $_POST['textFieldMessageContent'])) {
-    $arr = array('response' => "empty_fields");
-    header('Content-Type: application/json');
-    echo json_encode($arr);
-    exit();
-}
-
-if (!filter_var($_POST['textFieldEmail'], FILTER_VALIDATE_EMAIL)) {
-    $arr = array('response' => "invalid_email");
-    header('Content-Type: application/json');
-    echo json_encode($arr);
-    exit();
 }

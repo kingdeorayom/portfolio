@@ -29,8 +29,8 @@ $pagecssVersion = filemtime('./assets/css/index.css');
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:image" content="./assets/img/serking-cartoon.png" />
-    <meta property="og:description" content="Hi, I'm Serking. I spent the last 4 years working across different areas of web development: Front-end, Backend and UI/UX design." />
-    <meta property="og:url" content="http://www.kingdeorayom.tech" />
+    <meta property="og:description" content="Hi, I'm Serking. I have some experience in software development and is focused on front-end web technologies and UI/UX design." />
+    <meta property="og:url" content="https://www.kingdeorayom.tech" />
     <meta property="og:title" content="Serking de Orayom | Web Developer" />
 
 </head>

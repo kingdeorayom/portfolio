@@ -80,6 +80,8 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
                         </form>
 
+                        <p class="contact-header-text my-5">You may also contact me through the social links below.</p>
+
                     </div>
                 </div>
             </div>
