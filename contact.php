@@ -30,6 +30,8 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
 </head>
 
 <body>
@@ -69,8 +71,11 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                             <div class="my-3">
                                 <textarea class="form-control" id="textFieldMessageContent" required name="textFieldMessageContent" rows="3" placeholder="Tell me about you, your business or the project you want to start with me"></textarea>
                             </div>
+                            <div class="my-3">
+                                <div class="g-recaptcha" data-sitekey="6LcHs9ogAAAAAP75IoPzhI8ZdWSEJTp3LiiA_rci" data-callback='onSubmit' data-action='submit'>Submit</div>
+                            </div>
                             <div class="text-end">
-                                <button type="submit" class="btn" id="button-send-message">Send message</button>
+                                <button type="submit" class="btn" name="button-send-message" id="button-send-message">Send message</button>
                             </div>
 
                         </form>
@@ -147,6 +152,12 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     'error'
                 )
             }
+        }
+    </script>
+
+    <script>
+        function onSubmit(token) {
+            document.getElementById("demo-form").submit();
         }
     </script>
 
