@@ -26,11 +26,11 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.hostinger.com;';
     $mail->SMTPAuth = true;
-    $mail->Username = 'admin@kingdeorayom.tech';
+    $mail->Username = 'portfolio@kingdeorayom.tech';
     $mail->Password = 'Serkingd28();';
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
-    $mail->setFrom('admin@kingdeorayom.tech', 'Serking de Orayom');
+    $mail->setFrom('portfolio@kingdeorayom.tech', 'Serking de Orayom');
     $mail->isHTML(true);
     $subject = 'New Client | Serking de Orayom';
 
