@@ -46,10 +46,10 @@ $pagecssVersion = filemtime('./assets/css/works.css');
 
         <section class="projects">
 
-            <section class="saliksik animate__animated animate__fadeInUp">
+            <section class="saliksik">
                 <div class="row">
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInUp animate__faster">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">SALIKSIK: UPHSL Research Repository</h1>
                             <h5 class="projects-content-text">A web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of University of Perpetual Help System Laguna - Biñan Campus.</h5>
@@ -65,7 +65,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInUp animate__delay-1s animate__faster">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Account Manager (Web)</h1>
                             <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
@@ -81,7 +81,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInUp animate__delay-2s animate__faster">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Account Manager (Desktop)</h1>
                             <h5 class="projects-content-text">A desktop-based application for storing and managing social accounts all in one place.</h5>
@@ -93,7 +93,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInUp animate__delay-3s animate__faster">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Barangay Malaban Resident Information Management System</h1>
                             <h5 class="projects-content-text">A desktop application for storing and managing resident information of Barangay Malaban in Biñan City, Laguna.</h5>
@@ -106,7 +106,7 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-6 animate__animated animate__fadeInUp animate__delay-4s animate__faster">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Shutdown Timer</h1>
                             <h5 class="projects-content-text">A simple shutdown scheduler application for Windows.</h5>

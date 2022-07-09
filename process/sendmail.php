@@ -14,6 +14,13 @@ if (empty($_POST['textFieldName'] && $_POST['textFieldEmail'] && $_POST['textFie
     exit();
 }
 
+if (!filter_var($_POST['textFieldEmail'], FILTER_VALIDATE_EMAIL)) {
+    $arr = array('response' => "invalid_email");
+    header('Content-Type: application/json');
+    echo json_encode($arr);
+    exit();
+}
+
 try {
     $mail->SMTPDebug = 0;
     $mail->isSMTP();

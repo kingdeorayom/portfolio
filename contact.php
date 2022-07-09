@@ -56,7 +56,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
                 <div class="col-sm-12 col-md-6 my-5">
                     <div class="contact-holder-text animate__animated animate__fadeInUp">
-                        <h1 class="contact-header-text display-4">Contact me.</h1>
+                        <h1 class="contact-header-text display-4">Contact <span class="contact-name">me</span>.</h1>
 
                         <form onsubmit="submitContactForm(event)" name="contact-form">
 
@@ -64,7 +64,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                                 <input type="text" class="form-control" id="textFieldName" name="textFieldName" placeholder="Name" required>
                             </div>
                             <div class="my-3">
-                                <input type="text" class="form-control" id="textFieldEmail" name="textFieldEmail" placeholder="Email" required>
+                                <input type="email" class="form-control" id="textFieldEmail" name="textFieldEmail" placeholder="Email" required>
                             </div>
                             <div class="my-3">
                                 <textarea class="form-control" id="textFieldMessageContent" required name="textFieldMessageContent" rows="3" placeholder="Tell me about you, your business or the project you want to start with me"></textarea>
@@ -134,10 +134,16 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                 )
             }
             if (data.response === "empty_fields") {
-                console.log(response);
                 Swal.fire(
                     'Your message was not sent.',
                     'Please fill up all the fields.',
+                    'error'
+                )
+            }
+            if (data.response === "invalid_email") {
+                Swal.fire(
+                    'Your message was not sent.',
+                    'Please enter a valid email.',
                     'error'
                 )
             }
