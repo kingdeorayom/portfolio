@@ -69,18 +69,19 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                                 <input type="email" class="form-control" id="textFieldEmail" name="textFieldEmail" placeholder="Email" required>
                             </div>
                             <div class="my-3">
-                                <textarea class="form-control" id="textFieldMessageContent" required name="textFieldMessageContent" rows="3" placeholder="Tell me about you, your business or the project you want to start with me"></textarea>
+                                <textarea class="form-control" id="textFieldMessageContent" required name="textFieldMessageContent" rows="3" placeholder="Message"></textarea>
                             </div>
                             <div class="my-3">
                                 <div class="g-recaptcha" data-sitekey="6LcHs9ogAAAAAP75IoPzhI8ZdWSEJTp3LiiA_rci" data-callback='onSubmit' data-action='submit'>Submit</div>
                             </div>
                             <div class="text-end">
-                                <button type="submit" class="btn" name="button-send-message" id="button-send-message">Send message</button>
+                                <button type="submit" class="btn" name="button-send-message" id="button-send-message" disabled>Send message</button>
                             </div>
 
                         </form>
 
-                        <p class="contact-header-text my-5">You may also contact me through the social links below.</p>
+                        <p class="contact-header-text mt-5">I'm reworking the contact form is still under development.</p>
+                        <p class="contact-header-text">You may contact me through the other social links below.</p>
 
                     </div>
                 </div>
