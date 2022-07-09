@@ -45,17 +45,14 @@ $pagecssVersion = filemtime('./assets/css/works.css');
         </section>
 
         <section class="projects">
-            <!-- <div class="row mx-auto">
-                <h3 class="projects-content-text">below are the projects i have created</h3>
-            </div> -->
 
             <section class="saliksik animate__animated animate__fadeInUp">
                 <div class="row">
+
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">SALIKSIK: UPHSL Research Repository</h1>
                             <h5 class="projects-content-text">A web-based Institutional Repository for disseminating, archiving and preserving digital copies of academic papers of University of Perpetual Help System Laguna - Biñan Campus.</h5>
-
                             <div class="badges">
                                 <span class="badge rounded-pill badge-html my-2">HTML</span>
                                 <span class="badge rounded-pill badge-css my-2">CSS</span>
@@ -64,27 +61,14 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                                 <span class="badge rounded-pill badge-php my-2">PHP</span>
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
-
                             <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5>
-
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="projects-image-holder">
-                            <!-- <img src="./assets/images/saliksik.png" alt="" class="img-fluid projects-image"> -->
-                            <img src="./assets/img/saliksik-repository.png" alt="" class="img-fluid projects-image">
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="account-manager-web animate__animated animate__fadeInUp">
-                <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Account Manager (Web)</h1>
                             <h5 class="projects-content-text">A web-based application for storing and managing social accounts all in one place.</h5>
-
                             <div class="badges">
                                 <span class="badge rounded-pill badge-html my-2">HTML</span>
                                 <span class="badge rounded-pill badge-css my-2">CSS</span>
@@ -93,86 +77,46 @@ $pagecssVersion = filemtime('./assets/css/works.css');
                                 <span class="badge rounded-pill badge-php my-2">PHP</span>
                                 <span class="badge rounded-pill badge-mysql my-2">MySQL</span>
                             </div>
-
                             <h5 class="projects-content-text"><a href="https://account-manager.online" target="_blank" class="download-link">Visit website</a></h5>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="projects-image-holder">
-                            <img src="./assets/img/am-web.png" alt="" class="img-fluid projects-image">
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="account-manager-web animate__animated animate__fadeInUp">
-                <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Account Manager (Desktop)</h1>
                             <h5 class="projects-content-text">A desktop-based application for storing and managing social accounts all in one place.</h5>
-                            <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
-
                             <div class="badges">
                                 <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
                                 <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
                                 <span class="badge rounded-pill badge-sqlite my-2">SQLite</span>
                             </div>
-
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="projects-image-holder">
-                            <img src="./assets/img/am-desktop.png" alt="" class="img-fluid projects-image">
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="barangay-resident-management animate__animated animate__fadeInUp">
-                <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Barangay Malaban Resident Information Management System</h1>
                             <h5 class="projects-content-text">A desktop application for storing and managing resident information of Barangay Malaban in Biñan City, Laguna.</h5>
                             <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
-
                             <div class="badges">
                                 <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
                                 <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
                                 <span class="badge rounded-pill badge-sqlite my-2">Microsoft SQL Server</span>
                             </div>
-
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="projects-image-holder">
-                            <img src="./assets/img/barangay-malaban.png" alt="" class="img-fluid projects-image">
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section class="shutdown-timer animate__animated animate__fadeInUp">
-                <div class="row">
                     <div class="col-sm-12 col-md-6">
                         <div class="projects-holder-text">
                             <h1 class="projects-header-text display-4">Shutdown Timer</h1>
                             <h5 class="projects-content-text">A simple shutdown scheduler application for Windows.</h5>
-
                             <div class="badges">
                                 <span class="badge rounded-pill badge-c-sharp my-2">C#</span>
                                 <span class="badge rounded-pill badge-dotnet my-2">.NET</span>
                             </div>
+                        </div>
+                    </div>
 
-                            <!-- <h5 class="projects-content-text"><a href="https://saliksik-uphsl.com/" target="_blank" class="download-link">Visit website</a></h5> -->
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center">
-                        <div class="projects-image-holder">
-                            <img src="./assets/img/shutdown-timer.png" alt="" class="img-fluid projects-image">
-                        </div>
-                    </div>
                 </div>
             </section>
 

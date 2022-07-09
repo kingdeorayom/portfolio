@@ -47,7 +47,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
         <section class="introduction">
             <div class="row">
-                <div class="col-sm-12 col-md-6 toShow">
+                <div class="col-sm-12 col-md-6">
                     <div class="introduction-image-holder animate__animated animate__fadeInUp">
                         <img src="<?php echo './assets/img/kingdeorayom.jpg?v=' . $aboutPhotoVersion ?>" alt="" class="img-fluid introduction-image">
                     </div>
