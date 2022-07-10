@@ -47,7 +47,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
         <section class="contact">
 
-            <div class="row">
+            <div class="row mx-auto">
 
                 <div class="col-sm-12 col-md-6">
                     <div class="contact-image-holder animate__animated animate__fadeInUp">
@@ -59,8 +59,8 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     <div class="contact-holder-text animate__animated animate__fadeInUp">
                         <h1 class="contact-header-text display-4">Contact <span class="contact-name">me</span>.</h1>
                         <div class="contact-info my-5">
-                            <h2 class="contact-info-text"><a class="contact-email-text" href="mailto:kingdeorayom@gmail.com">kingdeorayom@gmail.com</a></h2>
-                            <h2 class="contact-info-text">+63 956 475 0051</h2>
+                            <h4 class="contact-info-text"><a class="contact-email-text" href="mailto:kingdeorayom@gmail.com">kingdeorayom@gmail.com</a></h4>
+                            <h4 class="contact-info-text">+63 956 475 0051</h4>
                         </div>
                     </div>
                 </div>
