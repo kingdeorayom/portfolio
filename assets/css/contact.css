@@ -53,7 +53,7 @@
 }
 
 .contact-holder-text {
-    margin: 25px 15px;
+    margin: 25px 0;
 }
 
 .contact-header-text {
@@ -108,3 +108,29 @@
 #button-send-message {
     background-color: #d6a718;
 }
+
+.contact-info-text {
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+}
+
+.contact-info {
+    font-size: 1vw;
+}
+
+.contact-email-text {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contact-email-text:hover {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 500px) {
+    .contact-info {
+        font-size: 50%;
+    }
+  }

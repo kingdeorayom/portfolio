@@ -30,8 +30,6 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <script src="https://www.google.com/recaptcha/api.js"></script>
-
 </head>
 
 <body>
@@ -56,35 +54,30 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     </div>
                 </div>
 
-                <div class="col-sm-12 col-md-6 my-5">
+                <div class="col-sm-12 col-md-6 my-5 d-none d-lg-block">
                     <div class="contact-holder-text animate__animated animate__fadeInUp">
                         <h1 class="contact-header-text display-4">Contact <span class="contact-name">me</span>.</h1>
-
-                        <form onsubmit="submitContactForm(event)" name="contact-form">
-
-                            <div class="my-3">
-                                <input type="text" class="form-control" id="textFieldName" name="textFieldName" placeholder="Name" required>
-                            </div>
-                            <div class="my-3">
-                                <input type="email" class="form-control" id="textFieldEmail" name="textFieldEmail" placeholder="Email" required>
-                            </div>
-                            <div class="my-3">
-                                <textarea class="form-control" id="textFieldMessageContent" required name="textFieldMessageContent" rows="3" placeholder="Message"></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="g-recaptcha" data-sitekey="6LcHs9ogAAAAAP75IoPzhI8ZdWSEJTp3LiiA_rci" data-callback='onSubmit' data-action='submit'>Submit</div>
-                            </div>
-                            <div class="text-end">
-                                <button type="submit" class="btn" name="button-send-message" id="button-send-message" disabled>Send message</button>
-                            </div>
-
-                        </form>
-
-                        <p class="contact-header-text mt-5">I'm reworking the contact form and is still under development.</p>
-                        <p class="contact-header-text">You may contact me through the other social links below.</p>
-
+                        <div class="contact-info my-5">
+                            <h2 class="contact-info-text"><a class="contact-email-text" href="mailto:kingdeorayom@gmail.com">kingdeorayom@gmail.com</a></h2>
+                            <h2 class="contact-info-text">+63 956 475 0051</h2>
+                        </div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-12 col-md-6 my-5 d-sm-block d-lg-none">
+                    <div class="contact-holder-text">
+                        <h1 class="contact-header-text display-4">Contact <span class="contact-name">me</span>.</h1>
+                        <div class="contact-info my-5">
+                            <h2 class="contact-info-text"><a class="contact-email-text" href="mailto:kingdeorayom@gmail.com">kingdeorayom@gmail.com</a></h2>
+                            <h2 class="contact-info-text">+63 956 475 0051</h2>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
