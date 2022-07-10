@@ -80,7 +80,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
                         </form>
 
-                        <p class="contact-header-text mt-5">I'm reworking the contact form is still under development.</p>
+                        <p class="contact-header-text mt-5">I'm reworking the contact form and is still under development.</p>
                         <p class="contact-header-text">You may contact me through the other social links below.</p>
 
                     </div>
