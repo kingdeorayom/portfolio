@@ -46,6 +46,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
         </section>
 
         <section class="contact">
+
             <div class="row">
 
                 <div class="col-sm-12 col-md-6">
@@ -66,7 +67,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
 
             </div>
 
-            <div class="row">
+            <div class="row mx-auto">
 
                 <div class="col-sm-12 col-md-6 my-5 d-sm-block d-lg-none">
                     <div class="contact-holder-text">

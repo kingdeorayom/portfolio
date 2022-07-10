@@ -114,9 +114,9 @@
     font-family: 'Merriweather', serif;
 }
 
-.contact-info {
+/* .contact-info {
     font-size: 1vw;
-}
+} */
 
 .contact-email-text {
     text-decoration: none;
@@ -129,8 +129,8 @@
 }
 
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     .contact-info {
         font-size: 50%;
     }
-  }
+  } */
