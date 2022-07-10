@@ -13,7 +13,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me | Serking | Web Developer</title>
+    <title>About me | Serking de Orayom | Web Developer</title>
 
     <link rel="stylesheet" href="./node_modules/animate.css/animate.min.css">
 
