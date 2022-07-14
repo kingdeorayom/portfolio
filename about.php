@@ -131,7 +131,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
             </div>
         </section> -->
 
-        <section class="opportunities animate__animated animate__fadeInUp">
+        <!-- <section class="opportunities animate__animated animate__fadeInUp">
             <div class="row">
                 <div class="col-sm-12">
 
@@ -142,7 +142,7 @@ $aboutPhotoVersion = filemtime('./assets/img/kingdeorayom.jpg');
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <footer class="footer-basic">
             <div class="social">
